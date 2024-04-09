@@ -65,7 +65,7 @@ public class HomePage {
         Thread.sleep(3000);
        WebElement crossButton = ldriver.findElement(By.xpath("//span[text()='SQL']//following-sibling::a"));
        crossButton.click();
-       WebElement skillDropDown = ldriver.findElement(By.xpath("//input[@placeholder ='Enter your area of Expertise/Specialization']"));
+       WebElement skillDropDown = ldriver.findElement(By.xpath("//input[@id='keySkillSugg']"));
        skillDropDown.click();
        skillDropDown.sendKeys("SQL");
        Thread.sleep(1000);

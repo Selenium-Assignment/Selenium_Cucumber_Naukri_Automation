@@ -39,7 +39,7 @@ public class profileUpdateFunctionality {
         Thread.sleep(5000);
         hp.accountHolderProfile();
 
-        Thread.sleep(2000);
+        Thread.sleep(5000);
     }
 
     @And("user updates the profile")
@@ -55,7 +55,7 @@ public class profileUpdateFunctionality {
         hp.saveButtonResumeHeadlineText();
         Thread.sleep(5000);
 
-        //****************** updating Employment_Section *********************
+        //****************** updating Key_Skill_Section *********************
 
         hp.UpdateKeySkill();
 
